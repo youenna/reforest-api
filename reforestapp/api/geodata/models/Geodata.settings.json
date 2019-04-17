@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "geodata",
+  "info": {
+    "name": "geodata",
+    "description": "Tree location data"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "satInUse": {
+      "type": "integer"
+    },
+    "satInView": {
+      "type": "integer"
+    },
+    "geoJSON": {
+      "type": "json"
+    },
+    "tree": {
+      "model": "tree",
+      "via": "geodata"
+    }
+  }
+}

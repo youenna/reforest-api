@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/geodata",
+      "handler": "Geodata.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/geodata/count",
+      "handler": "Geodata.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/geodata/:_id",
+      "handler": "Geodata.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/geodata",
+      "handler": "Geodata.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/geodata/:_id",
+      "handler": "Geodata.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/geodata/:_id",
+      "handler": "Geodata.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

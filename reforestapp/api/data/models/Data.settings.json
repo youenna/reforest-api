@@ -1,0 +1,46 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "data",
+    "description": "Tree data"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "diameter": {
+      "type": "decimal"
+    },
+    "height": {
+      "type": "decimal"
+    },
+    "leaves": {
+      "type": "boolean"
+    },
+    "manualIrrigation": {
+      "type": "boolean"
+    },
+    "autoIrrigation": {
+      "type": "boolean"
+    },
+    "fertilised": {
+      "type": "boolean"
+    },
+    "fumigated": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "text"
+    },
+    "tree": {
+      "model": "tree",
+      "via": "data"
+    }
+  }
+}
