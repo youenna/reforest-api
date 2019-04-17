@@ -1,0 +1,17 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "settings": {
+        "client": "mongo",
+        "host": "localhost",
+        "port": "27017",
+        "database": "reforestdb",
+        "username": "",
+        "password": ""
+      },
+      "options": {},
+      "connector": "strapi-hook-mongoose"
+    }
+  }
+}

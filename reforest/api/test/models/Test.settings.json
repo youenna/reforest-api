@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "test",
+    "description": "test"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "numero": {
+      "type": "integer"
+    }
+  }
+}
